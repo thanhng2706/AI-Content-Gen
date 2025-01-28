@@ -15,6 +15,12 @@ import moment from 'moment';
 import { TotalUsageContext } from '@/app/(context)/TotalUsageContext';
 import { useRouter } from 'next/navigation';
 
+interface PageParams {
+    params: {
+        'template-slug': string;
+    };
+}
+
 export default function CreateNewContent({ params }: { params: { 'template-slug': string } }) {
     const selectedTemplate: TEMPLATE | undefined = Templates?.find((item) => item.slug === params['template-slug']);
     const [loading, setLoading] = useState(false);
