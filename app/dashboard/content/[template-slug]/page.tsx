@@ -15,13 +15,7 @@ import moment from 'moment';
 import { TotalUsageContext } from '@/app/(context)/TotalUsageContext';
 import { useRouter } from 'next/navigation';
 
-interface PROPS {
-    params: {
-        'template-slug': string;
-    };
-}
-
-function CreateNewContent({ params }: PROPS) {
+export default function CreateNewContent({ params }: { params: { 'template-slug': string } }) {
     const selectedTemplate: TEMPLATE | undefined = Templates?.find((item) => item.slug === params['template-slug']);
     const [loading, setLoading] = useState(false);
     const [aiOutput, setAiOuput] = useState<string>('');
@@ -73,5 +67,3 @@ function CreateNewContent({ params }: PROPS) {
         </div>
     );
 }
-
-export default CreateNewContent;
