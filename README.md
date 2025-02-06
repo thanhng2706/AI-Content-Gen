@@ -1,5 +1,7 @@
 # AI Content Generator
 
+![image](https://github.com/thanhng2706/AI-Content-Gen/blob/a3a5f92b70b6d72905852187b9e82a8e3a561683/Image/Dashboard.png)
+
 Created By Nguyen Viet Thanh - vnguyen1@wpi.edu <br>
 
 An AI-powered content generation platform built with Next.js, TypeScript, and Google's Gemini AI API that helps create various types of content using customizable templates.
@@ -46,23 +48,23 @@ DATABASE_URL=your_neon_db_url
 
 # Authentication
 Beautiful and secure authentication powered by Clerk.js <br>
-![LogInPage](/ai-content-generator/Image/LogInPage.png)
+![LogInPage](https://github.com/thanhng2706/AI-Content-Gen/blob/a3a5f92b70b6d72905852187b9e82a8e3a561683/Image/LogInPage.png)
 
 # Dashboard
 Intuitive dashboard with multiple content templates <br>
-![FrontPage](/ai-content-generator/Image/Dashboard.png)
+![FrontPage](https://github.com/thanhng2706/AI-Content-Gen/blob/a3a5f92b70b6d72905852187b9e82a8e3a561683/Image/Dashboard.png)
 
 # Content Generation (one of them)
 AI-powered content generation with customizable inputs <br>
-![AIGen](/ai-content-generator/Image/ContentGeneration.png)
+![AIGen](https://github.com/thanhng2706/AI-Content-Gen/blob/a3a5f92b70b6d72905852187b9e82a8e3a561683/Image/ContentGeneration.png)
 
 # History Management
 Track and manage your generated content <br>
-![HistoryPage](/ai-content-generator/Image/HistoryPage.png)
+![HistoryPage](https://github.com/thanhng2706/AI-Content-Gen/blob/a3a5f92b70b6d72905852187b9e82a8e3a561683/Image/HistoryPage.png)
 
 # User Settings
 Manage your account and usage <br>
-![SettingPage](/ai-content-generator/Image/SettingPage.png)
+![SettingPage](https://github.com/thanhng2706/AI-Content-Gen/blob/a3a5f92b70b6d72905852187b9e82a8e3a561683/Image/SettingPage.png)
 
 License
 MIT © Thanh Nguyen
