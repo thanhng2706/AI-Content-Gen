@@ -1,5 +1,7 @@
 # AI Content Generator
 
+Created By Nguyen Viet Thanh - vnguyen1@wpi.edu <br>
+
 An AI-powered content generation platform built with Next.js, TypeScript, and Google's Gemini AI API that helps create various types of content using customizable templates.
 
 ## Features
@@ -21,11 +23,9 @@ An AI-powered content generation platform built with Next.js, TypeScript, and Go
 - **AI**: Google Gemini AI
 - **UI**: shadcn/ui components
 
-## Installation
-
 # Clone the repository
 
-git clone https://github.com/thanhng2706/AI-Content-Gen.git
+git clone https://github.com/thanhng2706/AI-Content-Gen.git <br>
 cd ai-content-generator
 
 # Install dependencies
@@ -50,11 +50,11 @@ Beautiful and secure authentication powered by Clerk.js <br>
 
 # Dashboard
 Intuitive dashboard with multiple content templates <br>
-![FrontPage](/ai-content-generator/Image/FrontPage.png)
+![FrontPage](/ai-content-generator/Image/Dashboard.png)
 
 # Content Generation (one of them)
 AI-powered content generation with customizable inputs <br>
-![AIGen](/ai-content-generator/Image/AIGen.png)
+![AIGen](/ai-content-generator/Image/ContentGeneration.png)
 
 # History Management
 Track and manage your generated content <br>
@@ -68,4 +68,5 @@ License
 MIT © Thanh Nguyen
 
 Contact
-GitHub: @thanhng2706
+GitHub: @thanhng2706 <br>
+Gmail: vnguyen1@wpi.edu 
