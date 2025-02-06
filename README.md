@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Content Generator
 
-## Getting Started
+An AI-powered content generation platform built with Next.js, TypeScript, and Google's Gemini AI API that helps create various types of content using customizable templates.
 
-First, run the development server:
+## Features
 
-```bash
+- 🤖 AI Content Generation with customizable templates
+- 🔐 Secure user authentication via Clerk.js
+- 📊 Real-time usage tracking and credits system
+- 📝 Content history management
+- 💾 PostgreSQL database with DrizzleORM
+- 📱 Responsive design using TailwindCSS
+
+## Tech Stack
+
+- **Frontend**: Next.js 14, TypeScript, TailwindCSS
+- **Backend**: Next.js API routes
+- **Database**: PostgreSQL (Neon)
+- **ORM**: DrizzleORM
+- **Authentication**: Clerk.js
+- **AI**: Google Gemini AI
+- **UI**: shadcn/ui components
+
+## Installation
+
+# Clone the repository
+
+git clone https://github.com/thanhng2706/AI-Content-Gen.git
+cd ai-content-generator
+
+# Install dependencies
+npm install
+
+# Setup environment variables
+cp .env.example .env.local
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Environment Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
+CLERK_SECRET_KEY=your_clerk_secret
+NEXT_PUBLIC_GOOGLE_GEMINI_API_KEY=your_gemini_key
+DATABASE_URL=your_neon_db_url
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Authentication
+Beautiful and secure authentication powered by Clerk.js
+![LogInPage](/ai-content-generator/Image/LogInPage.png)
 
-## Learn More
+# Dashboard
+Intuitive dashboard with multiple content templates
+![FrontPage](/ai-content-generator/Image/FrontPage.png)
 
-To learn more about Next.js, take a look at the following resources:
+# Content Generation (one of them)
+AI-powered content generation with customizable inputs
+![AIGen](/ai-content-generator/Image/AIGen.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# History Management
+Track and manage your generated content
+![HistoryPage](/ai-content-generator/Image/HistoryPage.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# User Settings
+Manage your account and usage
+![SettingPage](/ai-content-generator/Image/SettingPage.png)
 
-## Deploy on Vercel
+License
+MIT © Thanh Nguyen
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contact
+GitHub: @thanhng2706
