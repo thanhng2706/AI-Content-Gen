@@ -45,23 +45,23 @@ NEXT_PUBLIC_GOOGLE_GEMINI_API_KEY=your_gemini_key
 DATABASE_URL=your_neon_db_url
 
 # Authentication
-Beautiful and secure authentication powered by Clerk.js
+Beautiful and secure authentication powered by Clerk.js <br>
 ![LogInPage](/ai-content-generator/Image/LogInPage.png)
 
 # Dashboard
-Intuitive dashboard with multiple content templates
+Intuitive dashboard with multiple content templates <br>
 ![FrontPage](/ai-content-generator/Image/FrontPage.png)
 
 # Content Generation (one of them)
-AI-powered content generation with customizable inputs
+AI-powered content generation with customizable inputs <br>
 ![AIGen](/ai-content-generator/Image/AIGen.png)
 
 # History Management
-Track and manage your generated content
+Track and manage your generated content <br>
 ![HistoryPage](/ai-content-generator/Image/HistoryPage.png)
 
 # User Settings
-Manage your account and usage
+Manage your account and usage <br>
 ![SettingPage](/ai-content-generator/Image/SettingPage.png)
 
 License
